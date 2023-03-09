@@ -1,3 +1,10 @@
 import { signal } from "@preact/signals";
 
-export const count = signal(0);
+export const user = signal({
+id:"",
+name:"",
+email:"",
+password:""
+});
+export const users = signal([]);
+
